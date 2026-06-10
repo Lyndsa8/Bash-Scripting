@@ -111,3 +111,45 @@ When the operator chooses to close the dashboard, the system bypasses standard e
 
 ![Challenge 1 Success](images/devops_tool.png)
 
+# 👥 Challenge 2 — Automated User Onboarding Engine
+
+> An identity pipeline that onboards batches of new corporate employees onto an application server simultaneously — eliminating the need for systems engineers to manually invoke administration commands for every individual account.
+
+---
+
+## Project Objective
+
+An enterprise security and HR department requires an efficient pipeline to onboard batches of new corporate employees onto an application server simultaneously. The orchestration script is designed to:
+
+- Parse a plain-text database source file to extract standardized employee account usernames
+- Communicate directly with the system security database to securely create local user profiles
+- Programmatically compute complex, high-entropy alphanumeric password keys for every account
+- Dispatch system network configurations to securely deliver access credentials to each employee
+
+---
+
+## Architectural Workflow
+
+### 1. Structured Data Stream Reading
+
+The tool establishes a file-reading loop that scans an external text registry row-by-row, stripping away trailing whitespace and isolating individual personnel identifiers.
+
+### 2. Directory Object Creation
+
+The script utilizes administrative authority to interface with the core Linux OS security framework, safely creating structural home directories and matching system groups for each employee.
+
+### 3. High-Entropy Secret Generation
+
+To maintain a strong defensive posture, the engine uses a cryptographic random character generator to compile unique, high-strength password strings on the fly for every single row parsed.
+
+### 4. Credential Dispatch Logging
+
+The tool feeds newly created parameters into a localized mail transport agent or simulation pipeline, capturing the transaction in a dedicated system migration log to verify successful credential handoff.
+
+---
+
+## Terminal Success Verification
+
+![Challenge 2 Successful](user_onboarding.png)
+
+
