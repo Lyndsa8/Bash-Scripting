@@ -29,6 +29,5 @@ A software development team pushes a new feature update to GitHub. Instead of ma
 4. **Service Health Telemetry Verification:** Finally, the script queries the live runtime status of the application. If the server responds with a healthy execution signal, a success confirmation is generated. If an unexpected crash occurs, the pipeline raises an emergency stop flag to alert the engineering team.
 
 ### 💻 Terminal Success Verification
-![Deployment Successful] (images/deployment_script.png)
-
+![Deployment Successful](images/deployment_script.png)
 
