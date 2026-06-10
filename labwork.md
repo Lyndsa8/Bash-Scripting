@@ -152,4 +152,49 @@ The tool feeds newly created parameters into a localized mail transport agent or
 
 ![Challenge2 Successful](images/user_onboarding.png)
 
+# ☁️ Challenge 3 — End-to-End Environment Provisioning Engine
+
+> A master bootstrap pipeline that spins up completely fresh AWS EC2 nodes and brings them fully operational without manual technical onboarding — eliminating the need for administrators to SSH in and execute installation commands one by one.
+
+---
+
+## Project Objective
+
+A cloud infrastructure team needs to provision completely fresh AWS EC2 nodes and have them fully operational immediately. The orchestration program is designed to:
+
+- Synchronize the core OS package index and patch system files with the latest upstream security updates
+- Deploy a reliable Docker containerization runtime environment to host sandboxed applications
+- Initialize a high-performance Nginx reverse-proxy server layer to manage incoming network traffic
+- Configure strict host-level firewall rule matrices to block unauthorized external network probes
+- Pull targeted application source repositories from GitHub and execute a live production container deployment
+
+---
+
+## Architectural Workflow
+
+### 1. System Optimization & Patching
+
+The tool forces a complete non-interactive system update to resolve outdated application dependencies and lock down fundamental software security layers.
+
+### 2. Container Engine Provisioning
+
+The pipeline imports the official Docker repository keys, pulls down the stable containerization engine, and activates the background system processes to enable isolated application environments.
+
+### 3. Web Infrastructure Stabilization
+
+The tool deploys an Nginx reverse-proxy engine onto the system to serve as the application's external entry point, ensuring incoming client web requests are answered instantly.
+
+### 4. Network Perimeter Hardening
+
+The script triggers the Uncomplicated Firewall (UFW) framework, locking down all inbound vectors except for necessary SSH administration lanes and standard public web traffic gateways.
+
+### 5. Continuous Deployment Application Run
+
+The tool reaches out to GitHub to clone the web application codebase, hands the assets directly to the container runtime environment, and spins up a live container — completing the full environment launch.
+
+---
+
+## Terminal Success Verification
+
+![Challenge 3 Successful](images/infrastructure_setup.png infrastructure_setup2.png)
 
