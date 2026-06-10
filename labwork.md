@@ -70,3 +70,44 @@ To ensure compliance and support post-incident reviews, the tool appends a forma
 
 ![Lab 3 Successful](images/monitor_metric.png)
 
+# ⚙️ Challenge 1 — Menu-Driven Automation Tool
+
+> A unified, interactive console for managing and monitoring a Linux server's core functions safely — consolidating structural operations into a secure, keyboard-driven dashboard so junior engineers don't need to memorize complex CLI parameters or dangerous system flags.
+
+---
+
+## Project Objective
+
+A system administration team needs a unified, interactive console to manage and monitor a Linux server's core functions safely. The tool is designed to:
+
+- Extract immediate hardware diagnostics for processing power and operational memory capacity
+- Interface safely with the system process controller to reload network engine infrastructure
+- Aggregate and archive system transaction records into compressed security backups
+- Provide an elegant, continuous runtime loop that remains active until explicitly terminated
+
+---
+
+## Architectural Workflow
+
+### 1. Persistent Execution Loop
+
+The script initializes an endless conditional evaluation environment that ensures the control interface re-renders instantly after completing a task, keeping the engineer locked within the secure management dashboard.
+
+### 2. Interactive Selection Handling
+
+The system constructs an interactive textual interface on the screen, captures user keystroke inputs, and routes them through an optimized `case` block to trigger specific administrative routines.
+
+### 3. Modular Function Isolation
+
+Each diagnostic routine — from reading CPU statistics to executing service resets — is completely isolated into a self-contained function. This guarantees that a minor error inside the memory checking utility cannot crash the entire control application.
+
+### 4. Graceful Pipeline Termination
+
+When the operator chooses to close the dashboard, the system bypasses standard error exit channels, clears temporary runtime environment buffers cleanly, and returns the terminal console back to the standard command line safely.
+
+---
+
+## Terminal Success Verification
+
+![Challenge 1 Success](images/devops_tool.png)
+
