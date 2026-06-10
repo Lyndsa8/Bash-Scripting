@@ -36,17 +36,7 @@ A software development team pushes a new feature update to GitHub. Instead of ma
 > A lightweight infrastructure monitoring tool deployed directly on an AWS EC2 instance, designed to provide continuous visibility over cloud-based virtual machines and prevent unexpected downtime.
 
 ---
-
-## Table of Contents
-
-1. [Project Objective](#project-objective)
-2. [Architectural Workflow](#architectural-workflow)
-3. [Terminal Success Verification](#terminal-success-verification)
-
----
-
 ## Project Objective
-
 An infrastructure operations team needs to maintain continuous visibility over their cloud-based virtual machines without forcing engineers to monitor server statistics around the clock. This automation agent is designed to:
 
 - Extract real-time resource telemetry metrics including memory usage and capacity constraints
@@ -78,5 +68,5 @@ To ensure compliance and support post-incident reviews, the tool appends a forma
 
 ## Terminal Success Verification
 
-![Lab 3 Successful](images/monitor_metric)
+![Lab 3 Successful](images/monitor_metric.png)
 
