@@ -196,5 +196,5 @@ The tool reaches out to GitHub to clone the web application codebase, hands the 
 
 ## Terminal Success Verification
 
-![Challenge 3 Successful](images/infrastructure_setup.png infrastructure_setup2.png)
+![Challenge 3 Successful](images/infrastructure_setup.png)(images/infrastructure_setup2.png)
 
