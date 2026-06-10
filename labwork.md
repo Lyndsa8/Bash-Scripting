@@ -150,6 +150,6 @@ The tool feeds newly created parameters into a localized mail transport agent or
 
 ## Terminal Success Verification
 
-![Challenge 2 Successful](user_onboarding.png)
+![Challenge2 Successful](user_onboarding.png)
 
 
